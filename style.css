@@ -1,0 +1,56 @@
+body {
+    font-family: Consolas;
+    color: white;
+}
+
+p {
+    padding: 0 30px;
+    left: 15px;
+}
+
+ li {
+    padding: 0 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;    
+    height: auto;
+
+}
+
+h1 {
+    padding: 0 10%;
+}
+
+li img {
+    max-width: 5%;
+    height: auto;
+    padding-left: 85%;
+}
+
+hr {
+    color: yellow;
+}
+
+.banner {
+    width: 960px;
+    height: 500px;
+    margin: 0 auto;
+    animation: slide 10s infinite;
+    
+}
+
+@keyframes slide {
+    0%, 30% { 
+        background-image: url("img/logo.programador.jpg");
+
+    }
+
+    35%, 65% {
+        background-image: url("img/logo-marketing.jpg");
+
+    }
+
+    70%, 100% {
+        background-image: url("img/logo-sites.jpg");
+
+    }
+
